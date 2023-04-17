@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--GrisGeneral);
+    font-family: 'Chivo Mono', monospace;
 }
 
 body{
     background-color:#282C33;
+}
+
+.text_color{
+    color: var(--AzulGeneral);
+}
+
+:root{
+    --AzulGeneral:rgb(0,212,255);
+    --GrisGeneral: gray;
 }
 
 .head{
@@ -18,12 +31,253 @@ body{
     flex-direction: column;
     align-items: center;
     height: 300px;
-    width: 100px;
-    border: 0.9px solid red;
+    width: 70px;
 }
 
 .line{
-    border: 1px solid white;
+    border: 1px solid var(--GrisGeneral);
     height: 65%;
     width: 0px;
 }
+
+.others{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    gap: 10px;
+}
+
+.git:hover, .what:hover{
+    fill:var(--AzulGeneral);
+}
+
+
+
+/* LADO DERECHO */
+
+.head_lateral_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_bar{
+    border-bottom: 1px solid var(--GrisGeneral);
+    height: 61px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px 8px 20px;
+    margin-bottom: 40px;
+}
+
+.nav_options{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 60%;
+}
+
+.nav_options li a{
+    text-decoration: none;
+}
+
+.nav_options a:hover{
+    color: white;
+}
+
+.nav_options span{
+    color: var(--AzulGeneral);
+}
+
+
+/* HEADER INFO ETC */
+
+.header_intro{
+    display: flex;
+    height: 423px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header_info{
+    width: 50%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_info h1{
+    height: 84px;
+    width: 590px;
+    margin: 20px;
+    color: white;
+}
+
+.header_info p{
+    width: 463px;
+    margin: 0px 0px 20px 20px;
+}
+
+.header_info button{
+    height: 35px;
+    width: 120px;
+    padding: 0px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid var(--AzulGeneral);
+    color: white;
+    border-radius: 3px;
+}
+
+.header_info button:hover{
+    color:white;
+    background-color: var(--AzulGeneral);
+}
+
+.header_img{
+    height: 386px;
+    width: 469px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_img img{
+    height: 350px;
+    width: 300px;
+    /* border: 5px solid;
+    border-style:dotted; */
+}
+
+.bottom_img{
+    width: 80%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid var(--GrisGeneral);
+}
+
+.cuadrito{
+    height: 12px;
+    width: 12px;
+    background-color: var(--AzulGeneral);
+}
+
+.konoha_icon , .akatski_icon{
+    position: absolute;
+}
+
+.konoha_icon{
+    right: 100px;
+    top: 30px;
+    transform: rotate(-5deg);
+    height: 100px;
+}
+
+.akatski_icon{
+    height: 200px;
+    bottom: 5px;
+    left: 550px;
+}
+
+/* CITACIÓN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* border: 1px solid white; */
+    margin: 32px 0px 32px;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.citacion_text{
+    display: flex;
+    border: 1px solid;
+    height: 80px;
+    width: 712px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;  
+}
+
+.comilla1{
+    position: absolute;
+    top: 20%;
+    left: 29.5%;
+}
+
+.comilla2{
+    position: absolute;
+    bottom: 34%;
+    right: 29.5%;
+}
+
+.creator_cita{
+    height: 40px;
+    color: var(--AzulGeneral);
+    padding: 10px;
+}
+
+.cubito{
+    position: absolute;
+    border: 1px solid var(--GrisGeneral);
+    border-right: none;
+    height: 90px;
+    width: 90px;
+    right: 0px;
+}
+
+
+/* PROJECTS */
+
+
+.project{
+    border: 1px solid;
+    height: 518px;
+    width: 1027px;
+    padding: 10px;
+}
+
+.head_project{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+
+.sub_head_project{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    border: 1px solid;
+    gap: 15px;
+}
+
+.linea{
+    border: 1px solid var(--AzulGeneral);
+    width: 50%;
+    /* height: 0px; */
+}
+
+
+
