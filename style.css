@@ -252,7 +252,7 @@ main{
 
 
 .project{
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 518px;
     width: 1027px;
     padding: 10px;
@@ -261,15 +261,16 @@ main{
 .head_project{
     display: flex;
     align-items: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .sub_head_project{
     display: flex;
     align-items: center;
     width: 70%;
-    border: 1px solid;
+    /* border: 1px solid; */
     gap: 15px;
 }
 
@@ -291,6 +292,7 @@ main{
     border: 1px solid var(--GrisGeneral);
     width: 350px;
     height: 390px;
+    margin-top: 10px;
 }
 
 .card_img{
@@ -301,10 +303,84 @@ main{
     padding: 0px;
     height: 50%;
     width: 100%;
-    border: 1px solid blue;
+}
+
+.card_language{
+    border: 1px solid var(--GrisGeneral);
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.card_text{
+    height: auto;
+}
+
+.card_text h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.card_text p{
+    margin-bottom: 20px;
+}
+
+.buttons_live{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 20px;
+}
+
+.button_live{
+    height: 37px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid var(--AzulGeneral);
+    color: white;
+    cursor: pointer;
+}
+
+.button_live svg{
+    fill: white;
+}
+
+.button_live:hover{
+    background-color: var(--AzulGeneral);
 }
 
 
+.button_view{
+    height: 37px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid var(--GrisGeneral);
+    color: var(--GrisGeneral);
+    cursor: pointer;
+}
 
+.button_view svg{
+    fill: var(--GrisGeneral);
+}
 
+.button_view:hover{
+    background-color: white;
+    column-rule: var(--GrisGeneral);
+}
 
