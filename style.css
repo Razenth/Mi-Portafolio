@@ -616,3 +616,33 @@ main{
 
 /* -----------  SKILLS ----------- */
 
+.skills{
+    border: 1px solid;
+    height: 518px;
+    width: 1150px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.head_skills{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sub_head_skills{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    /* border: 1px solid; */
+    gap: 15px;
+}
+
+.linea_skills{
+    border: 1px solid var(--AzulGeneral);
+    border-top: none;
+    width: 70%;
+    /* height: 10px; */
+}
