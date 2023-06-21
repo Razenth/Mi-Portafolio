@@ -643,6 +643,100 @@ main{
 .linea_skills{
     border: 1px solid var(--AzulGeneral);
     border-top: none;
-    width: 70%;
+    width: 40%;
     /* height: 10px; */
 }
+
+
+.body_skills{
+    border: 1px solid white;
+    height: 85%;
+    display: flex;
+}
+
+.body_left{
+    border: 1px solid green;
+    width: 40%;
+}
+
+.body_right{
+    position: relative;
+    width: 60%;
+}
+
+.skills_cuadro1{
+    border: 2px solid var(--GrisGeneral);
+    height: auto;
+    width: 26%;
+    position: absolute;
+    left: 5px;
+    top: 50px;
+}
+
+.title_cuadro1{
+    border-bottom: 2px solid var(--GrisGeneral);
+    color: white;
+    padding: 5px;
+}
+
+.body_cuadro1{
+    padding: 4px;
+}
+
+.skills_cuadro2{
+    border: 2px solid var(--GrisGeneral);
+    height: auto;
+    width: 26%;
+    position: absolute;
+    left: 210px;
+    top: 50px;
+}
+
+.title_cuadro2{
+    border-bottom: 2px solid var(--GrisGeneral);
+    color: white;
+    padding: 5px;
+}
+
+.body_cuadro2{
+    padding: 4px;
+}
+
+.skills_cuadro3{
+    border: 2px solid var(--GrisGeneral);
+    height: auto;
+    width: 26%;
+    position: absolute;
+    left: 210px;
+    top: 150px;
+}
+
+.title_cuadro3{
+    border-bottom: 2px solid var(--GrisGeneral);
+    color: white;
+    padding: 5px;
+}
+
+.body_cuadro3{
+    padding: 4px;
+}
+
+.skills_cuadro4{
+    border: 2px solid var(--GrisGeneral);
+    height: auto;
+    width: 26%;
+    position: absolute;
+    right: 90px;
+    top: 50px;
+}
+
+.title_cuadro4{
+    border-bottom: 2px solid var(--GrisGeneral);
+    color: white;
+    padding: 5px;
+}
+
+.body_cuadro4{
+    padding: 4px;
+}
+
